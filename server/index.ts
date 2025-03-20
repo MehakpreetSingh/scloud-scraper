@@ -111,7 +111,7 @@ app.get("/", (req, res) => {
   const port = 3000;
   server.listen({
     port,
-    host: "localhost",
+    host: "0.0.0.0",
   }, () => {
     log(`SCloud Search API server running on port ${port}`);
   });
